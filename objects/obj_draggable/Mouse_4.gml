@@ -1,7 +1,8 @@
 
 // TODO: decouple the obj_controller and obj_draggable
-if(hover) {
+if(active) {
 	grab = true;
+	
 	depth = global.smallest_depth; 
 
 	// get relative click position

@@ -20,6 +20,6 @@ if(grab) {
 	
 	
 	grab = false;
-	hover = false;
+	active = false;
 	global.free_range = true;
 }

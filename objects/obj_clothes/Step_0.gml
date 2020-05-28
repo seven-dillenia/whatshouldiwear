@@ -24,6 +24,6 @@ if(is_snapped) {
 	depth = 0;
 }
 
-if (hover or grab or is_snapped) {
+if (active or is_snapped){
 	event_user(animate_sprite)
 }
