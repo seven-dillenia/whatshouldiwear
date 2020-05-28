@@ -21,6 +21,7 @@ if (grab) {
 if(is_snapped) {
 	x = obj_base.x + diff_x;
 	y = obj_base.y + diff_y; 
+	depth = 0;
 }
 
 if (hover or grab or is_snapped) {
